@@ -1,0 +1,369 @@
+:root{
+    --color1: #00000050;
+    --color2: #9b260967;
+    --color3: #7a0101;
+    --color4: #aa8200;
+    --color5: #c0c0c0;
+}
+
+::selection{
+    color: var(--color4);
+    background-color: var(--color1);
+}
+
+header{
+
+    display: flex;
+    flex-direction: row;
+    border: solid rgb(0, 0, 0) 2px;
+    border-radius: 15px;
+    padding: 1rem ;
+    margin: 6px;
+    margin-bottom: 30px;
+    background-color: var(--color2);
+
+}
+
+h1 a {
+
+    font-family: "DM Serif Display", serif;
+    font-size: 50px;
+
+}
+
+section{
+    font-family: "Montserrat", sans-serif;
+}
+
+section dd, ul, aside{
+    color: var(--color5);
+}
+
+dd{
+   font-size: 50px;
+   color: var(--color5);
+}
+
+.conteudo h2 {
+      font-size: 40px;
+      text-transform: uppercase;
+      padding-top: 8px;
+      
+}
+
+.conteudo{
+    padding: 40px 80px ;
+    font-size: 30px;
+}
+
+section dt, h2{
+    color: var(--color5);
+}
+
+h3{
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+article{
+     color: var(--color3);
+}
+
+span{
+    text-transform: uppercase;
+    color:var(--color4);
+    text-decoration:overline;
+}
+
+aside ul {
+    background-color: var(--color3);
+    border: solid black 2px;
+    border-radius: 20px;
+    padding: 5px;
+    list-style: none;
+    margin-top: 5px;
+    text-align: center;
+}
+
+aside a {
+    font-size: 30px;
+}
+
+section{
+    display: flex;
+    flex-direction: row;  
+
+}
+
+.esquerda{
+    border: solid rgb(0, 0, 0) 2px;
+    border-radius: 20px;
+    background-color: var(--color2);
+    padding-top: 5px;
+    padding-left: 30px;
+    margin-right: 6rem;
+    margin-left: 3rem;
+    :root{
+    --color1: #00000050;
+    --color2: #9b260967;
+    --color3: #7a0101;
+    --color4: #aa8200;
+    --color5: #c0c0c0;
+}
+
+::selection{
+    color: var(--color4);
+    background-color: var(--color1);
+}
+
+header{
+
+    display: flex;
+    flex-direction: row;
+    border: solid rgb(0, 0, 0) 2px;
+    border-radius: 15px;
+    padding: 1rem ;
+    margin: 6px;
+    margin-bottom: 30px;
+    background-color: var(--color2);
+
+}
+
+h1 a {
+
+    font-family: "DM Serif Display", serif;
+    font-size: 50px;
+
+}
+
+section{
+    font-family: "Montserrat", sans-serif;
+}
+
+section dd, ul, aside{
+    color: var(--color5);
+}
+
+dd{
+   font-size: 50px;
+   color: var(--color5);
+}
+
+.conteudo h2 {
+      font-size: 40px;
+      text-transform: uppercase;
+      padding-top: 8px;
+      
+}
+
+.conteudo{
+    padding: 40px 80px ;
+    font-size: 30px;
+}
+
+section dt, h2{
+    color: var(--color5);
+}
+
+h3{
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+article{
+     color: var(--color3);
+}
+
+span{
+    text-transform: uppercase;
+    color:var(--color4);
+    text-decoration:overline;
+}
+
+aside ul {
+    background-color: var(--color3);
+    border: solid black 2px;
+    border-radius: 20px;
+    padding: 5px;
+    list-style: none;
+    margin-top: 5px;
+    text-align: center;
+}
+
+aside a {
+    font-size: 30px;
+}
+
+section{
+    display: flex;
+    flex-direction: row;  
+
+}
+
+.esquerda{
+    border: solid rgb(0, 0, 0) 2px;
+    border-radius: 20px;
+    background-color: var(--color2);
+    padding-top: 5px;
+    padding-left: 30px;
+    margin-right: 6rem;
+    margin-left: 3rem;
+    transition: 1.0s ease, color 1.0s ease;
+   
+}
+
+.esquerda, ul :hover{
+    background-color: var(--color2);
+    color: var(--color5);
+
+
+}
+
+.direita{
+    border: solid rgb(0, 0, 0) 2px;
+    border-radius: 20px;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    padding-left: 5rem;
+    padding-right: 30px;
+    margin-right: 40px;
+    background-color: var(--color2);
+
+}
+
+footer a {
+
+    color: var(--color5);
+}
+
+footer nav ul {
+    
+    border: solid black 2px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: var(--color3);
+    padding: 20px;
+    margin-top: 20px;
+    list-style: none;
+}
+
+form{
+    border: solid rgb(0, 0, 0) 2px;
+    border-radius: 20px;    border: solid rgb(0, 0, 0) 2px;
+    border-radius: 20px;
+    padding: 20% 50px;
+    margin-right: 40px;
+    background-color: var(--color2);
+    margin-right: 40px;
+    background-color: var(--color2);
+    text-align: center;
+
+}
+
+input[type="text"], input[type="email"],input[type="tel"] {
+    background-color: var(--color2);
+    padding: 35px 100px;
+    border: solid 5px;
+    border-radius: 15px;
+}
+
+input[type="submit"]{
+
+    background-color: var(--color4);
+    border: solid 5px;
+    border-radius: 15px;
+    padding: 25px 160px;
+    
+}
+
+form h2 {
+    font-size: 35px;
+    color: var(--color4);
+    padding: 15px;
+}
+
+   
+}
+
+.esquerda, ul :hover{
+    background-color: var(--color2);
+    color: var(--color1);
+    transition: ease-in-out;
+}
+
+.direita{
+    border: solid rgb(0, 0, 0) 2px;
+    border-radius: 20px;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    padding-left: 5rem;
+    padding-right: 30px;
+    margin-right: 40px;
+    background-color: var(--color2);
+
+}
+
+footer a {
+
+    color: var(--color5);
+}
+
+footer nav ul {
+    
+    border: solid black 2px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: var(--color3);
+    padding: 20px;
+    margin-top: 20px;
+    list-style: none;
+}
+
+form{
+    border: solid rgb(0, 0, 0) 2px;
+    border-radius: 20px;    border: solid rgb(0, 0, 0) 2px;
+    border-radius: 20px;
+    padding: 20% 50px;
+    margin-right: 40px;
+    background-color: var(--color2);
+    margin-right: 40px;
+    background-color: var(--color2);
+    text-align: center;
+
+}
+
+input[type="text"], input[type="email"],input[type="tel"] {
+    background-color: var(--color2);
+    padding: 35px 100px;
+    border: solid 5px;
+    border-radius: 15px;
+}
+
+input[type="submit"]{
+
+    background-color: var(--color4);
+    border: solid 5px;
+    border-radius: 15px;
+    padding: 25px 160px;
+    
+}
+
+span:hover{
+    color: rgb(255, 255, 0);
+}
+
+input[type="text"]:hover, input[type="email"]:hover,input[type="tel"]:hover, input[type="submit"]:hover{
+
+    background-color: rgb(201, 197, 0);
+    color: rgb(0, 0, 0);
+   
+
+}
+
+form h2 {
+    font-size: 35px;
+    color: var(--color4);
+    padding: 15px;
+}
